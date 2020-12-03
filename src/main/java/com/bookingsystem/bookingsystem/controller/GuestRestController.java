@@ -23,7 +23,18 @@ double  - 20 ron
 the user wants to make a reservation for 6 nights for 3 people for a roomType: single-> you need to check if there any free rooms->
 you need to check if number of people is valid for the specified roomType- view all users bookings
 Hotel Admin client app should let the admin to:add new roomview details about a guestview all booking requests
+
+comenzi baze de date
+
+CREATE DATABASE bookingDatabase CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost';
+GRANT SELECT, INSERT, UPDATE, DELETE ON databaseName.* TO 'newuser'@'localhost';
+GRANT EXECUTE ON databaseName.* TO 'newuser'@'localhost';
+
+pentru setarea conexiunii, mergi in resource
 */
+
 
 
 
