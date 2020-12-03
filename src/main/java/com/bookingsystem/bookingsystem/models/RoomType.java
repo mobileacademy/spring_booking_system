@@ -13,9 +13,9 @@ import javax.persistence.Table;
 public class RoomType {
 
     @Id
-    private Long id;
-    private String description;
-    private Integer peopleNo;
-    private Integer price;
+    public Long id;
+    public String description;
+    public Integer peopleNo;
+    public Integer price;
 
 }
