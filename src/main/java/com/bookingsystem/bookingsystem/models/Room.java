@@ -12,6 +12,8 @@ public class Room {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private long roomType;
+
+    @ManyToOne(targetEntity = RoomType.class)
+    private RoomType roomType;
     private String status;
 }
